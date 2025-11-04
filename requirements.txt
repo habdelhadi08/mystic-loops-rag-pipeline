@@ -8,7 +8,12 @@ sentence-transformers==2.7.0
 faiss-cpu==1.8.0
 numpy==1.26.4
 requests==2.32.3
-redis==4.7.1
-prometheus-client==0.16.0
-streamlit==1.26.0
-cachetools==5.4.0
+
+# For caching
+redis==5.0.1
+
+# For monitoring and metrics
+prometheus-fastapi-instrumentator==6.1.0
+
+# For UI (optional)
+streamlit==1.38.0
