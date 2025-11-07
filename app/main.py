@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request, Depends
-from auth import verify_api_key
-from cache import query_cache, get_cache, set_cache
-from vectorstore import add_documents, query_vectorstore
+from .auth import verify_api_key
+from .vectorstore import add_documents, query_vectorstore
+from .cache import get_cache, set_cache
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 from fastapi.middleware.cors import CORSMiddleware
@@ -58,8 +58,9 @@ async def retrieve(request: Request, api_key: str = Depends(verify_api_key)):
     add_documents(docs)
 
     # Clear cache for stale results
-    for key in list(query_cache.keys()):
-        query_cache.pop(key)
+    cache = get_cache()
+    for key in list(cache.keys()):
+        cache.pop(key)
 
     logger.info(f"Added {len(docs)} documents to the vector store")
     return {"status": "documents added", "count": len(docs)}
