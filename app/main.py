@@ -1,14 +1,12 @@
-# main.py
-from fastapi import FastAPI, Depends, HTTPException, Request
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi import FastAPI, Request, Depends
+from auth import verify_api_key
+from cache import query_cache, get_cache, set_cache
+from vectorstore import add_documents, query_vectorstore
 from slowapi import Limiter
 from slowapi.util import get_remote_address
-from jose import jwt, JWTError
+from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
-import time, os
-from dotenv import load_dotenv
-
-load_dotenv()
+import time
 
 app = FastAPI(title="Mystic Loops API")
 
@@ -16,28 +14,52 @@ app = FastAPI(title="Mystic Loops API")
 limiter = Limiter(key_func=get_remote_address)
 app.state.limiter = limiter
 
-# JWT secret
-SECRET_KEY = os.getenv("SECRET_KEY", "test_secret")
-security = HTTPBearer()
+# CORS middleware (for UI)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-@app.get("/")
+# Logging
+logger.add("logs/mystic_loops.log", rotation="1 MB", format="{time} | {level} | {message}")
+
+# Add initial documents
+add_documents([
+    "The cat sat on the mat.",
+    "Python is a programming language.",
+    "FastAPI is great for APIs.",
+    "FAISS allows fast similarity search."
+])
+
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
+
+@app.get("/query")
 @limiter.limit("5/minute")
-def home(request: Request):
-    return {"message": "Welcome to Mystic Loops!"}
+async def query(q: str, request: Request, api_key: str = Depends(verify_api_key)):
+    start = time.time()
+    results = query_vectorstore(q, top_k=5)
+    duration = time.time() - start
+    logger.info(f"Query '{q}' processed in {duration:.3f}s")
+    return {"results": results, "latency": duration}
 
-@app.get("/secure")
-@limiter.limit("3/minute")
-def secure_endpoint(request: Request, token: HTTPAuthorizationCredentials = Depends(security)):
-    try:
-        payload = jwt.decode(token.credentials, SECRET_KEY, algorithms=["HS256"])
-    except JWTError:
-        raise HTTPException(status_code=403, detail="Invalid or expired token")
-    logger.info(f"Authorized access by {payload['sub']}")
-    return {"user": payload["sub"], "status": "Access granted"}
+@app.post("/retrieve")
+@limiter.limit("10/minute")
+async def retrieve(request: Request, api_key: str = Depends(verify_api_key)):
+    data = await request.json()
+    docs = data.get("documents", [])
+    if not docs or not isinstance(docs, list):
+        return {"status": "error", "message": "Provide a list of documents."}
 
-@app.post("/login")
-def login(username: str):
-    payload = {"sub": username, "iat": int(time.time())}
-    token = jwt.encode(payload, SECRET_KEY, algorithm="HS256")
-    logger.info(f"User {username} logged in")
-    return {"access_token": token}
+    add_documents(docs)
+
+    # Clear cache for stale results
+    for key in list(query_cache.keys()):
+        query_cache.pop(key)
+
+    logger.info(f"Added {len(docs)} documents to the vector store")
+    return {"status": "documents added", "count": len(docs)}
