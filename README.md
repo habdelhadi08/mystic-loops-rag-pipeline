@@ -34,25 +34,25 @@ FastAPI
 
 ## Features Implemented
 
-### 🔐 Security
+### Security
 - API key authentication (`x-api-key` header)
 - Unauthorized access returns **401**
 - Secrets stored in environment variables
 - No secrets committed to GitHub
 
-### 🚦 Rate Limiting
+### Rate Limiting
 - Implemented using **slowapi**
 - `/retrieve`: **10 requests/minute**
 - `/query`: **500 requests/minute**
 - Rate-limit violations return **429**
 
-### ⚡ Performance
+### Performance
 - FAISS vector similarity search
 - In-memory query cache
 - Reduced latency on repeated queries
 - Warm-cache p50 under **500ms**
 
-### 📊 Observability
+### Observability
 - Structured JSON logs with **Loguru**
 - Correlation IDs per request
 - Prometheus metrics:
@@ -60,7 +60,7 @@ FastAPI
   - Request latency histograms
 - `/metrics` endpoint enabled
 
-### 🧪 Reliability
+### Reliability
 - Input validation with **Pydantic**
 - Defensive error handling
 - Safe defaults and explicit failures
@@ -176,7 +176,7 @@ API_KEY=your_api_key_here
 
 Example `.env.example`:
 ```bash
-API_KEY=example_key_do_not_use
+API_KEY=example_key
 ```
 
 ---
@@ -224,17 +224,17 @@ Each log entry includes:
 ## Project Structure
 ```text
 mystic-loops/
-├── app/
+├── app/    
 │   ├── main.py
 │   ├── vectorstore.py
 │   ├── cache.py
+│   ├── auth.py
 │   ├── observability.py
 │   └── config.py
 │
 ├── logs/
 │   └── mystic_loops.log
 │
-├── monitoring/
 ├── performance-tests/
 ├── .env.example
 ├── README.md
@@ -251,12 +251,6 @@ mystic-loops/
 - [x] Prometheus metrics
 - [x] No secrets committed
 - [x] Production-ready API
-
----
-
-## Notes
-This project intentionally prioritizes backend robustness and operational readiness.  
-A frontend/UI is optional and not required for passing criteria.
 
 ---
 
