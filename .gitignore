@@ -1,2 +1,4 @@
 .env
 logs/
+venv/
+app/__pycache__/
