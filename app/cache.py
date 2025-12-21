@@ -1,12 +1,15 @@
-# cache.py
-from cachetools import TTLCache
+# cach.py
 
-# Small in-memory cache for testing/scaffold
-query_cache = TTLCache(maxsize=1024, ttl=300)
+_cache = {}
 
-def get_cache(key: str):
-    return query_cache.get(key)
+def get_cache(key):
+    """Return cached value for a key, or None if not present."""
+    return _cache.get(key)
 
-def set_cache(key: str, value):
-    query_cache[key] = value
+def set_cache(key, value):
+    """Set a value in the cache."""
+    _cache[key] = value
 
+def clear_cache():
+    global _cache
+    _cache = {}
