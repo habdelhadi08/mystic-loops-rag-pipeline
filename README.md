@@ -1,6 +1,6 @@
 # Mystic Loops – Production-Ready RAG API
-
-## Overview
+## Task
+### Overview
 **Mystic Loops** is a hardened Retrieval-Augmented Generation (RAG) backend built with **FastAPI**.  
 The project moves beyond “it works” and focuses on **production readiness**: security, rate limiting, caching, observability, and measurable performance.
 
@@ -10,6 +10,20 @@ The API allows:
 - Metrics and structured logs for monitoring and debugging
 
 ---
+## Description
+
+Mystic Loops is a hardened backend API built using FastAPI that supports semantic document retrieval using vector embeddings.
+The project emphasizes production-readiness by integrating authentication, request throttling, caching, structured logging, and monitoring.
+
+Key objectives include:
+
+- Securing API access using API keys
+
+- Reducing retrieval latency with FAISS and caching
+
+- Providing metrics and logs for debugging and monitoring
+
+- Ensuring reliability through validation and defensive error handling
 
 ## Architecture
 
@@ -155,8 +169,17 @@ request_latency_seconds_bucket{endpoint="/query",le="0.5"} 1.0
 ```
 
 ---
+## Installation
 
-## Environment Setup
+### Requirements
+- Python 3.10 or higher
+- pip package manager
+- Virtual environment (recommended)
+
+
+## Usage 
+
+### Environment Setup
 
 ### Python Version
 Python 3.10+
@@ -259,3 +282,8 @@ mystic-loops/
 Heba Abdelhadi  
 Season 03 – AI Application Developer  
 Qwasar Valley
+
+## Qwasar Reference
+
+This project was completed as part of **Qwasar Valley – Season 03 AI Application Developer** program.  
+It follows Qwasar’s technical guidelines for security, performance optimization, observability, and production-ready system design.
