@@ -280,10 +280,11 @@ mystic-loops/
 ## Author
 
 Heba Abdelhadi  
-Season 03 – AI Application Developer  
-Qwasar Valley
+- Season 03 – AI Application Developer  
+- Qwasar Valley
 
-## Qwasar Reference
+## The Core Team
 
-This project was completed as part of **Qwasar Valley – Season 03 AI Application Developer** program.  
-It follows Qwasar’s technical guidelines for security, performance optimization, observability, and production-ready system design.
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
