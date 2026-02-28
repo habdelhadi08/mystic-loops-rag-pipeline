@@ -1,0 +1,2 @@
+{"time": "2025-11-04T12:00:00Z", "level": "INFO", "correlation_id": "cid-1", "event": "ingest called", "doc_id": 0}
+{"time": "2025-11-04T12:00:01Z", "level": "INFO", "correlation_id": "cid-2", "event": "retrieve called", "query": "what is mystic loops", "cached": false}

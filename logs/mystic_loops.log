@@ -1,0 +1,475 @@
+2025-12-09T18:23:18.499619-0500 | INFO | Query 'hello' processed in 0.037s
+2025-12-09T18:27:30.157785-0500 | INFO | Query 'what is faiss' processed in 0.048s
+2025-12-09T18:51:37.559832-0500 | INFO | Query 'what is faiss' processed in 0.028s
+2025-12-10T19:03:44.839485-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-10T19:03:56.506561-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-10T19:07:47.817901-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-10T19:11:14.121936-0500 | INFO | Cache set for query: 'Python'
+2025-12-10T19:11:14.121936-0500 | INFO | Query 'Python' processed in 0.045s
+2025-12-10T19:20:04.244066-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-10T19:20:12.980651-0500 | INFO | Cache set for query: 'Python programming'
+2025-12-10T19:20:12.980651-0500 | INFO | Query 'Python programming' processed in 0.023s
+2025-12-10T19:20:13.010751-0500 | INFO | Cache set for query: 'FastAPI tutorial'
+2025-12-10T19:20:13.010751-0500 | INFO | Query 'FastAPI tutorial' processed in 0.022s
+2025-12-10T19:20:13.043157-0500 | INFO | Cache set for query: 'FAISS similarity search'
+2025-12-10T19:20:13.044151-0500 | INFO | Query 'FAISS similarity search' processed in 0.021s
+2025-12-10T19:20:13.063372-0500 | INFO | Cache set for query: 'Cat on the mat'
+2025-12-10T19:20:13.063372-0500 | INFO | Query 'Cat on the mat' processed in 0.015s
+2025-12-10T19:20:13.067372-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:20:13.068371-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:21:14.186195-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:21:14.187193-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:21:14.190699-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:21:14.190699-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:21:14.194707-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:21:14.194707-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:21:14.198840-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:21:14.200357-0500 | INFO | Query 'Cat on the mat' processed in 0.002s
+2025-12-10T19:21:14.204646-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:21:14.205645-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:31.900752-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-10T19:23:36.746183-0500 | INFO | Cache set for query: 'Python programming'
+2025-12-10T19:23:36.746728-0500 | INFO | Query 'Python programming' processed in 0.026s
+2025-12-10T19:23:36.766697-0500 | INFO | Cache set for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.767226-0500 | INFO | Query 'FastAPI tutorial' processed in 0.016s
+2025-12-10T19:23:36.785646-0500 | INFO | Cache set for query: 'FAISS similarity search'
+2025-12-10T19:23:36.786184-0500 | INFO | Query 'FAISS similarity search' processed in 0.015s
+2025-12-10T19:23:36.808125-0500 | INFO | Cache set for query: 'Cat on the mat'
+2025-12-10T19:23:36.808716-0500 | INFO | Query 'Cat on the mat' processed in 0.018s
+2025-12-10T19:23:36.813220-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.814732-0500 | INFO | Query 'Python programming' processed in 0.002s
+2025-12-10T19:23:36.819312-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.819312-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:36.824370-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.824370-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:36.830942-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.830942-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:36.835293-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.836307-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:36.840174-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.841167-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:36.845487-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.846583-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:36.850675-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.851668-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:36.854670-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.855669-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:36.859828-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.860825-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:36.865701-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.866212-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:36.870308-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.870912-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:36.876504-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.879603-0500 | INFO | Query 'Python programming' processed in 0.003s
+2025-12-10T19:23:36.897965-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.898540-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:36.904407-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.905560-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:36.910530-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.911143-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:36.916608-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.917172-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:36.922509-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.922509-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:36.927213-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.927802-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:36.933062-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.933062-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:36.937586-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.938586-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:36.941585-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.942587-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:36.947162-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.947162-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:36.951618-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.951618-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:36.955621-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.955621-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:36.958821-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.958821-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:36.963641-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.964640-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:36.967161-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.968167-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:36.971160-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.971160-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:36.974162-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.975160-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:36.978943-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.979948-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:36.982943-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.983938-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:36.986939-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:36.986939-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:36.989464-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:36.990725-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:36.995524-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:36.995524-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:36.998638-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:36.999631-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.001630-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.002629-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.005629-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.005629-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.008888-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.009891-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.014451-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.014451-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.018439-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.018439-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.021453-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.022450-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.025456-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.025456-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.028806-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.030362-0500 | INFO | Query 'Cat on the mat' processed in 0.002s
+2025-12-10T19:23:37.033389-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.033389-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.036390-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.036390-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.038916-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.039914-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.042916-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.042916-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.048253-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.048811-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.053049-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.053593-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.056451-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.057022-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.060992-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.062081-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.065095-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.065095-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.067835-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.069366-0500 | INFO | Query 'FastAPI tutorial' processed in 0.002s
+2025-12-10T19:23:37.071387-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.072766-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.076299-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.076299-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.079770-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.080774-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.083798-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.083798-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.085829-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.087337-0500 | INFO | Query 'FAISS similarity search' processed in 0.002s
+2025-12-10T19:23:37.089887-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.090910-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.094730-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.094730-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.098292-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.098292-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.101438-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.102435-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.105434-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.105434-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.108455-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.108455-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.113063-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.113063-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.116428-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.116428-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.119557-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.119557-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.123031-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.123995-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.126998-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.127711-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.131303-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.132312-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.135313-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.135313-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.138335-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.138335-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.141823-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.141823-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.146822-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.146822-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.150822-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.150822-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.155337-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.155337-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.159373-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.159373-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.163697-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.164696-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.167725-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.168699-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.171694-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.171694-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.175227-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.176207-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.179479-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.180476-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.184020-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.185021-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.188021-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.188021-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.191037-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.191037-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.194602-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.195656-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.196984-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.196984-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.196984-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.196984-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.204616-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.204616-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.207086-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.208095-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.211544-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.211544-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.215133-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.215133-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.217152-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.218658-0500 | INFO | Query 'FastAPI tutorial' processed in 0.002s
+2025-12-10T19:23:37.221685-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.221685-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.224684-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.224684-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.228064-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.229395-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.231930-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.232909-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.236216-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.236216-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.240231-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.240231-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.243861-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.244406-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.247576-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.248578-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.251087-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.252087-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.254108-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.255091-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.257665-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.258662-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.262037-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.262037-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.266064-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.266064-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.268614-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.269581-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.272108-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.272108-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.275127-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.276181-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.280380-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.280380-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.283331-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.283331-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.286303-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.286303-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.289393-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.290391-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.293391-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.293391-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.297586-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.297586-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.300683-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.300683-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.303661-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.303661-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.306661-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.306661-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.310177-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.310752-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.313895-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.314894-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.317801-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.317801-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.320314-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.321312-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.323315-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.324311-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.327451-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.327451-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.330976-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.331975-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.333980-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.334976-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.337011-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.337976-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.340527-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.340527-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.344174-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.344174-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.347586-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.348583-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.351155-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.351155-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.354151-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.354151-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.357177-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.357177-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.360536-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.360970-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.364318-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.364318-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.367317-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.368319-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.370352-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.371317-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.373393-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.373393-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.377237-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.377825-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.381425-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.381425-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.384189-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.385163-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.387190-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.388163-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.390165-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.391671-0500 | INFO | Query 'Cat on the mat' processed in 0.002s
+2025-12-10T19:23:37.394346-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.394346-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.398127-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.399125-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.401128-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.402129-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.404188-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.405187-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.409187-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.409187-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.413878-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.413878-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.417490-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.417490-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.421005-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.421005-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.424521-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.424521-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.429663-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.429663-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.433898-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.433898-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.437714-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.438246-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.441455-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.441991-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.445369-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.446379-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.450343-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.451351-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.455948-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.455948-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.459908-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.460545-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.465315-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.465315-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.468279-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.468279-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.472800-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.472800-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.476541-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.477551-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.480548-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.481549-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.486076-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.486076-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.490072-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.490072-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.494982-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.495608-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.499617-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.500616-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.504620-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.504620-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.509138-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.509138-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.514743-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.514743-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.518263-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.518263-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.522554-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.522554-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.526525-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.527950-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.533749-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.533749-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.538227-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.538227-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.543224-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.543224-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.548106-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.549107-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.552107-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.553106-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.556107-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.556107-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.561512-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.561512-0500 | INFO | Query 'FAISS similarity search' processed in 0.000s
+2025-12-10T19:23:37.565436-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.565436-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-10T19:23:37.569591-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.569591-0500 | INFO | Query 'Python programming' processed in 0.000s
+2025-12-10T19:23:37.569591-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.569591-0500 | INFO | Query 'FastAPI tutorial' processed in 0.000s
+2025-12-10T19:23:37.579159-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.580156-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.583154-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.584152-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.588284-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.589297-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.592071-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.593804-0500 | INFO | Query 'FastAPI tutorial' processed in 0.002s
+2025-12-10T19:23:37.596850-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.598358-0500 | INFO | Query 'FAISS similarity search' processed in 0.002s
+2025-12-10T19:23:37.602404-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.603386-0500 | INFO | Query 'Cat on the mat' processed in 0.001s
+2025-12-10T19:23:37.608716-0500 | INFO | Cache hit for query: 'Python programming'
+2025-12-10T19:23:37.609726-0500 | INFO | Query 'Python programming' processed in 0.001s
+2025-12-10T19:23:37.613051-0500 | INFO | Cache hit for query: 'FastAPI tutorial'
+2025-12-10T19:23:37.614052-0500 | INFO | Query 'FastAPI tutorial' processed in 0.001s
+2025-12-10T19:23:37.617069-0500 | INFO | Cache hit for query: 'FAISS similarity search'
+2025-12-10T19:23:37.618049-0500 | INFO | Query 'FAISS similarity search' processed in 0.001s
+2025-12-10T19:23:37.620566-0500 | INFO | Cache hit for query: 'Cat on the mat'
+2025-12-10T19:23:37.620566-0500 | INFO | Query 'Cat on the mat' processed in 0.000s
+2025-12-16T10:47:07.879785-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T10:54:28.887151-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T11:06:45.960753-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T11:06:45.960753-0500 | INFO | Startup documents added.
+2025-12-16T11:07:12.319958-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T11:07:12.321973-0500 | INFO | Startup documents added.
+2025-12-16T11:25:48.522052-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T11:26:20.582536-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T11:26:30.590282-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T11:27:24.732964-0500 | INFO | Cache set for query: 'What is python?'
+2025-12-16T11:27:24.732964-0500 | INFO | {'request_id': '03cf09ed-8127-411a-950e-d11c763962be', 'endpoint': '/query', 'method': 'GET', 'status': 200, 'latency_ms': 50.31, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T12:39:56.831935-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T12:40:11.927637-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2025-12-16T12:41:53.358830-0500 | INFO | Cache set for query: 'What is python?'
+2025-12-16T12:41:53.358830-0500 | INFO | {'request_id': '5a78e731-013a-4efa-92dd-f78c65732056', 'endpoint': '/query', 'method': 'GET', 'status': 200, 'latency_ms': 162.31, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T12:58:15.688091-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2025-12-16T12:58:32.766399-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2025-12-16T13:00:06.825703-0500 | INFO | Cache set for query: 'What is machine learning?'
+2025-12-16T13:00:06.825703-0500 | INFO | {'request_id': '57c01572-478c-4338-b222-61685e7bc4fb', 'endpoint': '/query', 'method': 'GET', 'status': 200, 'latency_ms': 51.63, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T13:10:25.519734-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2025-12-16T13:10:56.503495-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2025-12-16T13:11:50.237629-0500 | INFO | Cache set for query: 'What is machine learning?'
+2025-12-16T13:11:50.238737-0500 | INFO | {'request_id': '198037d6-89f3-4358-83fa-afcaea01cbac', 'endpoint': '/query', 'method': 'GET', 'status': 200, 'latency_ms': 53.32, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T13:13:42.607591-0500 | INFO | Added 4 documents to vector store. Cache cleared.
+2025-12-16T13:13:42.607591-0500 | INFO | {'request_id': 'c0395c16-f28a-4eae-ad46-c351b319b8d1', 'endpoint': '/retrieve', 'method': 'POST', 'status': 200, 'latency_ms': 118.6, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T13:20:43.786569-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2025-12-16T13:22:56.220514-0500 | INFO | Cache set for query: 'What is machine learning?'
+2025-12-16T13:22:56.238456-0500 | INFO | {'request_id': '6ecd65ce-1e9b-44bc-85b1-428b2d525fa1', 'endpoint': '/query', 'method': 'GET', 'status': 200, 'latency_ms': 184.25, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T13:25:45.160621-0500 | INFO | Added 1 documents to vector store. Cache cleared.
+2025-12-16T13:25:45.163393-0500 | INFO | {'request_id': 'fe001577-1447-407d-bfd2-5295f33e1e56', 'endpoint': '/retrieve', 'method': 'POST', 'status': 200, 'latency_ms': 194.44, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T13:26:03.497958-0500 | INFO | Cache set for query: 'What is machine learning?'
+2025-12-16T13:26:03.499979-0500 | INFO | {'request_id': '687c9ad0-06db-4e87-93f5-a29693a9dd5e', 'endpoint': '/query', 'method': 'GET', 'status': 200, 'latency_ms': 61.78, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T13:26:08.025513-0500 | INFO | Cache hit for query: 'What is machine learning?'
+2025-12-16T13:26:08.029081-0500 | INFO | {'request_id': '41a32711-67c0-4b61-95c3-825f7a0b3d0e', 'endpoint': '/query', 'method': 'GET', 'status': 200, 'latency_ms': 4.14, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2025-12-16T13:46:10.741820-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2025-12-16T13:47:45.092313-0500 | INFO | Added 1 documents to vector store. Cache cleared.
+2025-12-16T13:47:45.092313-0500 | INFO | {'request_id': 'ac3adbf8-12d2-4280-ae91-97192200f2a4', 'endpoint': '/retrieve', 'method': 'POST', 'status': 200, 'latency_ms': 76.94, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2026-02-28T13:30:56.405353-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2026-02-28T13:30:56.407023-0500 | INFO | Preloaded default documents.
+2026-02-28T13:41:08.396431-0500 | INFO | Added 10 documents to vector store. Cache cleared.
+2026-02-28T13:41:08.397159-0500 | INFO | Preloaded default documents.
+2026-02-28T13:43:17.532944-0500 | INFO | Added 2 documents to vector store. Cache cleared.
+2026-02-28T13:43:17.534894-0500 | INFO | {'request_id': '4807ec81-2371-48fb-8654-56cf9533c649', 'endpoint': '/retrieve', 'method': 'POST', 'status': 200, 'latency_ms': 250.31, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
+2026-02-28T13:44:03.112286-0500 | INFO | Cache set for query: 'What is python?'
+2026-02-28T13:44:03.117670-0500 | INFO | {'request_id': '07d9b2c5-3048-481f-adea-f97dff11bb69', 'endpoint': '/query', 'method': 'GET', 'status': 200, 'latency_ms': 64.12, 'api_key': 'hf_ZEGocOHsccrbwZzxehNYVHYtlSXPsvHUr'}
